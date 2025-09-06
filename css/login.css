@@ -1,0 +1,132 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom , var(--russian-violet) 1%, white)    ; */
+    background-color: var(--russian-violet);
+}
+*{
+  font-family: "Lugrasimo", cursive;
+}
+
+
+canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -19;
+    }
+
+.contaner{
+    background-color: rgba(255, 255, 255, 0.214);
+    height: 80%;
+    width: 70%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    z-index: 100;
+    padding: 10px;
+    box-shadow:inset 0px 1px 20px 5px var(--amethyst);
+    z-index: 100;
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px); 
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 2s ease;
+}
+
+p{
+    padding: 10px;
+
+    bottom: 17%;
+    font-family: "Ballet", cursive;
+    font-size: 84px;
+    font-weight: bolder;
+    background-image: linear-gradient(to left , var(--russian-violet) , var(--orange-peel));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 113px;
+    margin: 0 0 10% 0 ;
+}
+
+.inp {
+    padding: 7px ;
+    margin: 10px;
+    color: white;
+}
+
+form{
+    width:  100%;
+    padding: 10px 50px 10px 50px ;
+
+}
+
+input{
+    padding: 15px;
+    width: 100%;
+    background-color:var(--french-violet);
+    border-radius: 33px;
+    color: white;
+    transition: transform ease .2s 0s ,box-shadow ease .2s 0s;
+    border: 2px solid var(--pumpkin);
+    
+}
+
+
+input:focus{
+    outline: none;
+    color: white;
+    transform:scale(1.03);
+    box-shadow: inset 1px 1px 10px .1px var(--pumpkin);
+}
+
+
+#login{
+    width: 70%;
+    height: 52px;
+    font-size: 22px;
+    border: none;
+    transition:  .8s 0s ease;
+    box-shadow: inset 1px 1px 30px 4px var(--orange-peel);
+    position: relative;
+    overflow: hidden;
+    color: white;
+    background-color: var(--pumpkin); 
+    border-radius: 33px;
+}
+
+
+
+#login::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to left, var(--pumpkin), white);
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+#login:hover{
+    background-color: transparent;
+}
+
+#login:hover::before{
+    opacity: 1;
+}
+
+input::placeholder{
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .contaner{
+        width: 90%;
+    }
+}
