@@ -1,23 +1,7 @@
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-image: linear-gradient(to bottom , var(--russian-violet) 1%, white)    ; */
-    background-color: var(--russian-violet);
-}
-*{
-  font-family: "Lugrasimo", cursive;
-}
 
 
-canvas {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -19;
-    }
+
+
 
 .contaner{
     background-color: rgba(255, 255, 255, 0.214);
@@ -31,7 +15,7 @@ canvas {
     justify-content: center;
     overflow: visible;
     z-index: 100;
-    padding: 10px;
+    padding: 100px 10px;
     box-shadow:inset 0px 1px 20px 5px var(--amethyst);
     z-index: 100;
     backdrop-filter: blur(5px); 

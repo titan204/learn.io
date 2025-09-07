@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Introduction to Programming",
+    "description": "Learn the basics of programming from scratch with practical examples.",
+    "image": "fas fa-laptop-code",
+    "instructor": "John Doe",
+    "sponsor": "Code Academy",
+    "price": "Free"
+  },
+  {
+    "title": "Graphic Design",
+    "description": "Master the principles of visual communication and graphic design tools.",
+    "image": "fas fa-palette",
+    "instructor": "Jane Smith",
+    "sponsor": "Design Hub",
+    "price": "75$"
+  },
+  {
+    "title": "Voice Over",
+    "description": "Develop your vocal skills and learn how to use them for professional voice-overs.",
+    "image": "fas fa-microphone",
+    "instructor": "Ahmed Ali",
+    "sponsor": "Voice Talents",
+    "price": "45$"
+  },
+  {
+    "title": "Content Writing",
+    "description": "Learn how to write engaging and effective content for various platforms.",
+    "image": "fas fa-book-open",
+    "instructor": "Sarah Johnson",
+    "sponsor": "WriteNow",
+    "price": "30$"
+  },
+  {
+    "title": "Digital Marketing",
+    "description": "Understand the strategies and tools needed for successful digital campaigns.",
+    "image": "fas fa-lightbulb",
+    "instructor": "Omar Hassan",
+    "sponsor": "Marketing Pros",
+    "price": "90$"
+  },
+  {
+    "title": "Data Analysis",
+    "description": "Learn to analyze and interpret data to make informed decisions.",
+    "image": "fas fa-chart-line",
+    "instructor": "Mona Samir",
+    "sponsor": "Data Insights",
+    "price": "110$"
+  },
+  {
+    "title": "Photography",
+    "description": "Master the art of photography, from basic concepts to advanced techniques.",
+    "image": "fas fa-camera-retro",
+    "instructor": "Youssef Ibrahim",
+    "sponsor": "Photo Studio",
+    "price": "65$"
+  },
+  {
+    "title": "Sustainable Agriculture",
+    "description": "Discover eco-friendly farming methods and sustainable practices.",
+    "image": "fas fa-leaf",
+    "instructor": "Fatma Mahmoud",
+    "sponsor": "Green Earth",
+    "price": "Free"
+  },
+  {
+    "title": "Culinary Arts",
+    "description": "Explore the world of cooking, from foundational skills to gourmet dishes.",
+    "image": "fas fa-utensils",
+    "instructor": "Khaled Fouad",
+    "sponsor": "Kitchen Masters",
+    "price": "80$"
+  },
+  {
+    "title": "Artificial Intelligence",
+    "description": "An introduction to the concepts and applications of modern AI.",
+    "image": "fas fa-robot",
+    "instructor": "Nour El-Deen",
+    "sponsor": "AI Innovators",
+    "price": "150$"
+  },
+  {
+    "title": "English for Beginners",
+    "description": "Start your journey to learn the English language from scratch.",
+    "image": "fas fa-book",
+    "instructor": "Mariam Gamal",
+    "sponsor": "Language Hub",
+    "price": "35$"
+  },
+  {
+    "title": "Yoga and Meditation",
+    "description": "Learn the basics of yoga and meditation to improve your well-being.",
+    "image": "fas fa-om",
+    "instructor": "Hoda Ezz",
+    "sponsor": "Wellness Center",
+    "price": "20$"
+  },
+  {
+    "title": "Project Management",
+    "description": "Master the skills needed to manage projects effectively from start to finish.",
+    "image": "fas fa-tasks",
+    "instructor": "Sherif Hassan",
+    "sponsor": "PMP Certified",
+    "price": "130$"
+  },
+  {
+    "title": "Guitar Playing",
+    "description": "A comprehensive guide to playing the guitar for all skill levels.",
+    "image": "fas fa-guitar",
+    "instructor": "Amr El-Sheikh",
+    "sponsor": "Music School",
+    "price": "55$"
+  },
+  {
+    "title": "Modern History",
+    "description": "Explore key events and figures that shaped the modern world.",
+    "image": "fas fa-history",
+    "instructor": "Fatma Farouk",
+    "sponsor": "History Channel",
+    "price": "25$"
+  },
+  {
+    "title": "Healthy Nutrition",
+    "description": "Learn how to make healthier food choices and build a balanced diet.",
+    "image": "fas fa-apple-alt",
+    "instructor": "Nadia Saeed",
+    "sponsor": "Nutrition Experts",
+    "price": "40$"
+  },
+  {
+    "title": "Film Editing",
+    "description": "An introduction to the art and science of editing films and videos.",
+    "image": "fas fa-film",
+    "instructor": "Karim Emad",
+    "sponsor": "VFX Studios",
+    "price": "85$"
+  },
+  {
+    "title": "Cybersecurity",
+    "description": "Learn how to protect your data and systems from cyber threats.",
+    "image": "fas fa-shield-alt",
+    "instructor": "Ayman Mansour",
+    "sponsor": "Secure Corp",
+    "price": "120$"
+  },
+  {
+    "title": "Public Speaking",
+    "description": "Build confidence and master the techniques of effective public speaking.",
+    "image": "fas fa-bullhorn",
+    "instructor": "Maha Ali",
+    "sponsor": "Speaker's Club",
+    "price": "60$"
+  },
+  {
+    "title": "Positive Psychology",
+    "description": "Discover the science of happiness and human flourishing.",
+    "image": "fas fa-brain",
+    "instructor": "Hassan Ezzat",
+    "sponsor": "Mindful Living",
+    "price": "50$"
+  }
+]

@@ -1,5 +1,8 @@
+
+html{
+    overflow-x: hidden;
+}
 :root{
-    
 
 --pumpkin: #ff6d00ff;
 --safety-orange: #ff7900ff;
@@ -13,9 +16,30 @@
 --amethyst: #9d4eddff;
 }
 
+body{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-image: linear-gradient(to bottom , var(--russian-violet) 1%, white)    ; */
+    background-color: var(--russian-violet);
+}
+
 *{
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
-    
+    font-family: 'Inter';
+
 }
+
+canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -19;
+}
+
