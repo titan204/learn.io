@@ -1,4 +1,4 @@
-{
+
 //change background color 
     const box_array = document.getElementsByClassName("corse-box");
 
@@ -45,7 +45,7 @@
         d.textContent="discription : "+ des ; 
         caption.appendChild(d);
         let p = document.createElement("p");
-        p.textContent="price :" + price + "$"  
+        p.textContent="price :" + price  
         caption.appendChild(p);
 
         box.appendChild(caption);
@@ -76,4 +76,53 @@
 
 
 
+
+
+// serach bar 
+{
+    let input_bar= document.querySelector("#search-input");
+    let serach_button = document.querySelector(".search-box label");
+    serach_button.addEventListener("click", ()=>{
+        input_bar.classList.toggle("searching");
+        serach_button.classList.toggle("searching-bt");
+        
+    })
+
 }
+
+
+//nav bar 
+fetch('../html/navbar.html')
+  .then(response => response.text())
+  .then(data => {
+    document.querySelector('.nav-contaner').innerHTML = data;
+        {  const mainButton = document.querySelector('.main-button');
+    const items = document.querySelectorAll('.navbar ul li');
+    
+    const radius = 140;
+    
+    // الزوايا للربع السفلي الأيسر: من 180 إلى 270 درجة
+    const startAngle = 180;
+    const endAngle = 270;
+    
+    mainButton.addEventListener("click", () => {
+        const isShowing = items[0].classList.contains("show");
+        
+        items.forEach((item, index) => {
+            const angle = (startAngle + (endAngle - startAngle) * index / (items.length - 1)) * (Math.PI / 180);
+   
+            const x = radius * Math.cos(angle);
+            const y = radius * Math.sin(angle);
+            
+            item.classList.toggle("show");
+            
+            if (isShowing) {
+                item.style.transform = `translate(0, 0)`;
+            } else {
+                item.style.transform = `translate(${x}px, ${-y}px)`;
+            }
+        });
+    });
+}
+  })
+
