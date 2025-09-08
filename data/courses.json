@@ -1,162 +1,2661 @@
 [
   {
-    "title": "Introduction to Programming",
-    "description": "Learn the basics of programming from scratch with practical examples.",
-    "image": "fas fa-laptop-code",
-    "instructor": "John Doe",
-    "sponsor": "Code Academy",
-    "price": "Free"
+    "title": "Quantum Computing",
+    "description": "An introduction to the revolutionary field of quantum mechanics and its applications in computing.",
+    "full_description": "This course provides a comprehensive introduction to the fundamental principles of quantum computing. You'll learn about quantum bits (qubits), superposition, and entanglement, and understand how they differ from classical bits. The course covers key quantum algorithms like Shor's and Grover's algorithms, and includes hands-on labs using frameworks like Qiskit to solve real-world problems.",
+    "image": "fas fa-atom",
+    "instructor": "Mostafa Mahmoud",
+    "sponsor": "Quantum Labs",
+    "price": "250$",
+    "rating": "4.9/5",
+    "duration": "12 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic understanding of linear algebra and Python programming.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Quantum Mechanics"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Quantum Gates and Circuits"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Quantum Algorithms: Shor's and Grover's"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Quantum Error Correction"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building a Simple Quantum Computer"
+      }
+    ]
   },
   {
-    "title": "Graphic Design",
-    "description": "Master the principles of visual communication and graphic design tools.",
-    "image": "fas fa-palette",
-    "instructor": "Jane Smith",
-    "sponsor": "Design Hub",
-    "price": "75$"
+    "title": "Robotics",
+    "description": "Learn the fundamentals of robotics, including design, programming, and control systems.",
+    "full_description": "This course is designed to give you a solid foundation in the field of robotics. We'll cover everything from the mechanical design of robot arms and mobile robots to the electronics that power them. You'll learn how to program control systems using C++ and Python, and work on exciting projects, including building and programming your own robot from a kit.",
+    "image": "fas fa-robot",
+    "instructor": "Hoda Ezz",
+    "sponsor": "RoboTech Solutions",
+    "price": "210$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "No prior experience required, but basic programming knowledge is a plus.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "History and Components of Robots"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Kinematics and Dynamics"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Robotic Sensors and Actuators"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Introduction to Robot Programming"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building a Mobile Robot"
+      }
+    ]
   },
   {
-    "title": "Voice Over",
-    "description": "Develop your vocal skills and learn how to use them for professional voice-overs.",
-    "image": "fas fa-microphone",
+    "title": "Renewable Energy Systems",
+    "description": "Explore solar, wind, and other renewable energy sources and their practical applications.",
+    "full_description": "Dive into the science and engineering behind modern renewable energy. This course examines solar photovoltaics, wind energy systems, and hydropower. You'll learn how these technologies generate power, how they're integrated into the grid, and their economic and environmental impacts. The course includes case studies of large-scale renewable projects worldwide.",
+    "image": "fas fa-solar-panel",
+    "instructor": "Karim Emad",
+    "sponsor": "Green Power Initiative",
+    "price": "180$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic understanding of physics and electrical circuits.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Global Energy Challenge"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Solar Energy Technologies"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Wind Power Generation"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Hydropower and Geothermal"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Energy Storage and Grid Integration"
+      }
+    ]
+  },
+  {
+    "title": "Ethical Hacking",
+    "description": "Master the techniques and tools used by hackers to secure networks and systems.",
+    "full_description": "This is a hands-on course that teaches you to think and act like a hacker—but for good. You will learn about the different phases of a penetration test, from reconnaissance and scanning to gaining access and maintaining persistence. The course covers tools like Metasploit and Wireshark and prepares you for real-world cybersecurity challenges in an ethical framework.",
+    "image": "fas fa-user-secret",
+    "instructor": "Ayman Mansour",
+    "sponsor": "CyberSecure Training",
+    "price": "220$",
+    "rating": "4.8/5",
+    "duration": "14 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Solid understanding of networking concepts and Linux command line.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Cybersecurity and Ethical Hacking"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Reconnaissance and Footprinting"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Scanning and Enumeration"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "System and Network Hacking"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Web Application Security"
+      }
+    ]
+  },
+  {
+    "title": "Social Media Management",
+    "description": "Develop strategies to grow an online presence and engage with an audience.",
+    "full_description": "Master the art and science of social media management. This course will guide you through creating a social media strategy, developing a content calendar, and using a variety of platforms to build a strong online community. You'll learn how to analyze performance metrics, run paid ad campaigns, and engage with your audience effectively to achieve your business or personal goals.",
+    "image": "fas fa-share-alt",
+    "instructor": "Nour El-Deen",
+    "sponsor": "Social Branders",
+    "price": "75$",
+    "rating": "4.5/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "No prior experience needed.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Basics of Social Media Strategy"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Content Creation and Curation"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Platform Management (Facebook, Instagram, Twitter)"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Social Media Analytics"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Paid Social Media Advertising"
+      }
+    ]
+  },
+  {
+    "title": "Video Production",
+    "description": "Learn how to plan, shoot, and edit professional-quality videos.",
+    "full_description": "This hands-on course takes you through every stage of video production. You'll start with pre-production, including scriptwriting and storyboarding, and move on to shooting techniques, mastering camera settings, lighting, and sound. Finally, you'll learn post-production skills using industry-standard editing software to create polished, professional videos.",
+    "image": "fas fa-video",
+    "instructor": "Youssef Ibrahim",
+    "sponsor": "Media Masters",
+    "price": "110$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "A smartphone or camera capable of shooting video.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Video Production"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Pre-Production: Planning and Storyboarding"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Shooting Techniques: Camera, Lighting, and Audio"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Editing with Adobe Premiere Pro"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Exporting and Publishing"
+      }
+    ]
+  },
+  {
+    "title": "Web Development (Front-End)",
+    "description": "Master HTML, CSS, and JavaScript to build beautiful and responsive websites.",
+    "full_description": "Kickstart your career in web development with this comprehensive front-end course. You'll build a strong foundation in **HTML** for structure, **CSS** for styling, and **JavaScript** for interactivity. The course emphasizes building responsive designs that work on all devices and introduces you to modern web design principles and best practices.",
+    "image": "fas fa-code",
+    "instructor": "Mariam Gamal",
+    "sponsor": "Dev Academy",
+    "price": "130$",
+    "rating": "4.8/5",
+    "duration": "12 Weeks",
+    "level": "Beginner",
+    "prerequisites": "A computer with an internet connection.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "HTML: Structuring Your Website"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "CSS: Styling and Layouts"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "JavaScript: Adding Interactivity"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Building Responsive Websites"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Introduction to Front-End Frameworks"
+      }
+    ]
+  },
+  {
+    "title": "Spanish for Beginners",
+    "description": "Start learning the Spanish language with basic vocabulary and grammar.",
+    "full_description": "This course is your perfect entry point into the world of Spanish. We focus on practical, everyday conversational skills, so you can start communicating from day one. You'll learn essential vocabulary, basic grammar rules, and correct pronunciation to confidently introduce yourself, order food, and navigate travel situations.",
+    "image": "fas fa-language",
+    "instructor": "Fatma Mahmoud",
+    "sponsor": "Language Corner",
+    "price": "40$",
+    "rating": "4.5/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Greetings and Introductions"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Basic Vocabulary and Numbers"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Present Tense Verbs and Grammar"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Ordering Food and Asking for Directions"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Past Tense and Conversational Skills"
+      }
+    ]
+  },
+  {
+    "title": "Digital Illustration",
+    "description": "Learn to create digital art using popular software and techniques.",
+    "full_description": "Unleash your creativity with this course on digital illustration. We'll guide you through the process of creating stunning digital artwork using industry-standard software like Adobe Photoshop or Illustrator. You'll master everything from digital sketching and line art to coloring, shading, and adding textures to bring your unique vision to life.",
+    "image": "fas fa-pencil-alt",
     "instructor": "Ahmed Ali",
-    "sponsor": "Voice Talents",
-    "price": "45$"
+    "sponsor": "Artisan Guild",
+    "price": "85$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "A digital drawing tablet or pen display is recommended.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Digital Tools"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Sketching and Line Art"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Color Theory and Shading"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Creating Textures and Effects"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Finalizing and Exporting Your Artwork"
+      }
+    ]
   },
   {
-    "title": "Content Writing",
-    "description": "Learn how to write engaging and effective content for various platforms.",
-    "image": "fas fa-book-open",
-    "instructor": "Sarah Johnson",
-    "sponsor": "WriteNow",
-    "price": "30$"
+    "title": "Neuroscience",
+    "description": "An introduction to the human brain, nervous system, and behavior.",
+    "full_description": "Explore the fascinating world of the human brain. This course provides an accessible introduction to the biological basis of thought, emotion, and behavior. You'll learn about the structure of the nervous system, how neurons communicate, and the functions of different brain regions, all while discovering how neuroscience impacts our daily lives.",
+    "image": "fas fa-brain",
+    "instructor": "Sherif Hassan",
+    "sponsor": "Brain Science Institute",
+    "price": "170$",
+    "rating": "4.9/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic biology knowledge is helpful but not required.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Neuron and Neural Communication"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Brain Anatomy and Function"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Sensation and Perception"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Learning and Memory"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "The Neuroscience of Emotion"
+      }
+    ]
+  },
+
+{
+    "title": "Leadership Skills",
+    "description": "Develop the qualities and techniques needed to be an effective leader.",
+    "full_description": "This course is designed to help you build the core skills of a successful leader. You'll learn to inspire and motivate teams, make effective decisions, and communicate with clarity. The curriculum covers different leadership styles, conflict resolution, and strategies for building a positive work culture.",
+    "image": "fas fa-users-cog",
+    "instructor": "Maha Ali",
+    "sponsor": "Leader's Edge",
+    "price": "90$",
+    "rating": "4.6/5",
+    "duration": "6 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Understanding Leadership Styles"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Effective Communication and Delegation"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Conflict Resolution and Team Building"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Decision-Making and Problem-Solving"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Ethical Leadership"
+      }
+    ]
   },
   {
-    "title": "Digital Marketing",
-    "description": "Understand the strategies and tools needed for successful digital campaigns.",
-    "image": "fas fa-lightbulb",
+    "title": "Personal Fitness Training",
+    "description": "Learn to design workout plans and guide others towards their fitness goals.",
+    "full_description": "Turn your passion for fitness into a career. This course covers the science of exercise, including anatomy, physiology, and nutrition. You'll learn how to assess clients, create personalized workout plans, and motivate them to achieve their goals. It’s an ideal course for aspiring personal trainers.",
+    "image": "fas fa-dumbbell",
+    "instructor": "Khaled Fouad",
+    "sponsor": "FitPro Academy",
+    "price": "60$",
+    "rating": "4.8/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Fundamentals of Exercise Science"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Anatomy and Kinesiology"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Nutrition and Diet Planning"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Client Assessment and Program Design"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Business of Personal Training"
+      }
+    ]
+  },
+  {
+    "title": "E-commerce Business",
+    "description": "A guide to starting and running a successful online store.",
+    "full_description": "Learn everything you need to know to launch and grow a profitable e-commerce business. This course covers choosing a niche, sourcing products, building an online store, and digital marketing strategies. You'll gain practical skills to manage inventory, process payments, and provide excellent customer service.",
+    "image": "fas fa-store",
+    "instructor": "Nadia Saeed",
+    "sponsor": "E-com Pioneers",
+    "price": "115$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Choosing Your Niche and Products"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Building Your E-commerce Website"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Marketing and SEO for Online Stores"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Payment Processing and Logistics"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Scaling Your E-commerce Business"
+      }
+    ]
+  },
+  {
+    "title": "Public Health",
+    "description": "An overview of public health principles and addressing community health issues.",
+    "full_description": "Explore the principles and practices of public health, focusing on disease prevention and health promotion in communities. This course covers epidemiology, environmental health, and global health issues. You'll learn how public health professionals work to improve the well-being of populations and address health disparities.",
+    "image": "fas fa-heartbeat",
+    "instructor": "Fatma Farouk",
+    "sponsor": "Health Advocates",
+    "price": "95$",
+    "rating": "4.5/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "What is Public Health?"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Epidemiology and Disease Prevention"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Health Promotion and Education"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Environmental Health"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Global Health Issues"
+      }
+    ]
+  },
+  {
+    "title": "Astronomy",
+    "description": "Explore the celestial objects and phenomena of the cosmos.",
+    "full_description": "Take a journey through the universe with this introductory course to astronomy. You'll explore the life cycles of stars, the formation of planets, and the structure of galaxies. The course uses a combination of lectures and virtual star-gazing sessions to help you understand the cosmos and our place in it.",
+    "image": "fas fa-star",
     "instructor": "Omar Hassan",
-    "sponsor": "Marketing Pros",
-    "price": "90$"
+    "sponsor": "Stellar Studies",
+    "price": "80$",
+    "rating": "4.9/5",
+    "duration": "7 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to the Solar System"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Stars and Their Life Cycles"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Galaxies and the Universe"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Celestial Objects and Phenomena"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Observational Astronomy"
+      }
+    ]
   },
   {
-    "title": "Data Analysis",
-    "description": "Learn to analyze and interpret data to make informed decisions.",
-    "image": "fas fa-chart-line",
+    "title": "Data Visualization",
+    "description": "Learn to create compelling charts and graphs to tell stories with data.",
+    "full_description": "In a world of data, the ability to visualize information is a critical skill. This course teaches you the principles of effective data visualization and how to use tools like Tableau and D3.js. You’ll learn how to choose the right chart type, design compelling dashboards, and tell a clear story with your data.",
+    "image": "fas fa-chart-bar",
     "instructor": "Mona Samir",
     "sponsor": "Data Insights",
-    "price": "110$"
+    "price": "145$",
+    "rating": "4.7/5",
+    "duration": "9 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic familiarity with data concepts.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Art and Science of Data Visualization"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Choosing the Right Chart Type"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Introduction to Tableau"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Interactive Dashboards"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Storytelling with Data"
+      }
+    ]
   },
   {
-    "title": "Photography",
-    "description": "Master the art of photography, from basic concepts to advanced techniques.",
-    "image": "fas fa-camera-retro",
-    "instructor": "Youssef Ibrahim",
-    "sponsor": "Photo Studio",
-    "price": "65$"
-  },
-  {
-    "title": "Sustainable Agriculture",
-    "description": "Discover eco-friendly farming methods and sustainable practices.",
-    "image": "fas fa-leaf",
-    "instructor": "Fatma Mahmoud",
-    "sponsor": "Green Earth",
-    "price": "Free"
-  },
-  {
-    "title": "Culinary Arts",
-    "description": "Explore the world of cooking, from foundational skills to gourmet dishes.",
-    "image": "fas fa-utensils",
-    "instructor": "Khaled Fouad",
-    "sponsor": "Kitchen Masters",
-    "price": "80$"
-  },
-  {
-    "title": "Artificial Intelligence",
-    "description": "An introduction to the concepts and applications of modern AI.",
-    "image": "fas fa-robot",
-    "instructor": "Nour El-Deen",
-    "sponsor": "AI Innovators",
-    "price": "150$"
-  },
-  {
-    "title": "English for Beginners",
-    "description": "Start your journey to learn the English language from scratch.",
-    "image": "fas fa-book",
-    "instructor": "Mariam Gamal",
-    "sponsor": "Language Hub",
-    "price": "35$"
-  },
-  {
-    "title": "Yoga and Meditation",
-    "description": "Learn the basics of yoga and meditation to improve your well-being.",
-    "image": "fas fa-om",
-    "instructor": "Hoda Ezz",
-    "sponsor": "Wellness Center",
-    "price": "20$"
-  },
-  {
-    "title": "Project Management",
-    "description": "Master the skills needed to manage projects effectively from start to finish.",
-    "image": "fas fa-tasks",
+    "title": "Supply Chain Management",
+    "description": "Understand the process of managing the flow of goods and services.",
+    "full_description": "This course provides a complete overview of modern supply chain management. You will learn how to optimize the flow of goods and services, from the procurement of raw materials to the delivery of the final product to the customer. The curriculum covers inventory management, logistics, and the use of technology to build an efficient and resilient supply chain.",
+    "image": "fas fa-truck",
     "instructor": "Sherif Hassan",
-    "sponsor": "PMP Certified",
-    "price": "130$"
+    "sponsor": "Logistics Pro",
+    "price": "160$",
+    "rating": "4.6/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Supply Chain Management"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Sourcing and Procurement"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Inventory and Warehouse Management"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Transportation and Logistics"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Supply Chain Technology"
+      }
+    ]
   },
   {
-    "title": "Guitar Playing",
-    "description": "A comprehensive guide to playing the guitar for all skill levels.",
-    "image": "fas fa-guitar",
+    "title": "Gardening",
+    "description": "A beginner's guide to growing plants, from vegetables to flowers.",
+    "full_description": "Learn the essentials of gardening, whether you have a large backyard or a small balcony. This course covers soil preparation, plant selection, proper watering techniques, and pest control. You'll gain the confidence to grow your own vegetables, herbs, and beautiful flowers at home.",
+    "image": "fas fa-seedling",
     "instructor": "Amr El-Sheikh",
-    "sponsor": "Music School",
-    "price": "55$"
+    "sponsor": "Green Thumbs",
+    "price": "35$",
+    "rating": "4.9/5",
+    "duration": "5 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Tools and Soil Preparation"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Planting and Sowing Seeds"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Watering and Feeding Your Plants"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Pest and Disease Management"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Harvesting Your Garden"
+      }
+    ]
   },
   {
-    "title": "Modern History",
-    "description": "Explore key events and figures that shaped the modern world.",
-    "image": "fas fa-history",
-    "instructor": "Fatma Farouk",
-    "sponsor": "History Channel",
-    "price": "25$"
-  },
-  {
-    "title": "Healthy Nutrition",
-    "description": "Learn how to make healthier food choices and build a balanced diet.",
-    "image": "fas fa-apple-alt",
-    "instructor": "Nadia Saeed",
-    "sponsor": "Nutrition Experts",
-    "price": "40$"
-  },
-  {
-    "title": "Film Editing",
-    "description": "An introduction to the art and science of editing films and videos.",
-    "image": "fas fa-film",
-    "instructor": "Karim Emad",
-    "sponsor": "VFX Studios",
-    "price": "85$"
-  },
-  {
-    "title": "Cybersecurity",
-    "description": "Learn how to protect your data and systems from cyber threats.",
-    "image": "fas fa-shield-alt",
-    "instructor": "Ayman Mansour",
-    "sponsor": "Secure Corp",
-    "price": "120$"
-  },
-  {
-    "title": "Public Speaking",
-    "description": "Build confidence and master the techniques of effective public speaking.",
-    "image": "fas fa-bullhorn",
-    "instructor": "Maha Ali",
-    "sponsor": "Speaker's Club",
-    "price": "60$"
-  },
-  {
-    "title": "Positive Psychology",
-    "description": "Discover the science of happiness and human flourishing.",
+    "title": "Cognitive Behavioral Therapy (CBT)",
+    "description": "Learn the principles of CBT to help improve mental well-being.",
+    "full_description": "This course introduces you to the core principles and techniques of Cognitive Behavioral Therapy (CBT). You'll learn how to identify negative thought patterns and behaviors, and develop strategies to replace them with healthier ones. The course provides practical exercises to help you improve your mental well-being and emotional resilience.",
     "image": "fas fa-brain",
     "instructor": "Hassan Ezzat",
     "sponsor": "Mindful Living",
-    "price": "50$"
+    "price": "120$",
+    "rating": "4.8/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to CBT"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Identifying Thoughts, Emotions, and Behaviors"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Cognitive Restructuring"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Behavioral Experiments"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Applying CBT in Daily Life"
+      }
+    ]
+  },
+  {
+    "title": "Fashion Design",
+    "description": "Explore the basics of designing, sketching, and creating your own clothes.",
+    "full_description": "Unleash your inner designer with this introductory course on fashion design. You'll learn the fundamentals of sketching, color theory, and fabric selection. The course provides step-by-step guidance on creating a fashion collection, from initial concept to a finished garment, giving you the skills to start your own creative journey.",
+    "image": "fas fa-tshirt",
+    "instructor": "Sarah Johnson",
+    "sponsor": "Style Academy",
+    "price": "100$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "History of Fashion and Major Styles"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Fashion Sketching and Illustration"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Fabric Science and Selection"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Pattern Making and Garment Construction"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Developing Your First Collection"
+      }
+    ]
+  },
+{
+    "title": "Public Relations",
+    "description": "Learn how to manage an organization's public image and communication.",
+    "full_description": "This course teaches you the art and science of public relations. You’ll learn how to craft compelling press releases, manage media relationships, and handle crises effectively. The curriculum covers building a positive brand image, engaging with the public, and measuring the success of your PR campaigns in the digital age.",
+    "image": "fas fa-bullhorn",
+    "instructor": "Hoda Ezz",
+    "sponsor": "PR Pros",
+    "price": "80$",
+    "rating": "4.5/5",
+    "duration": "7 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Public Relations"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Media Relations and Press Releases"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Crisis Management"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Digital PR and Social Media"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Measuring PR Success"
+      }
+    ]
+  },
+  {
+    "title": "Machine Learning",
+    "description": "Dive into the world of AI with practical projects and advanced concepts.",
+    "full_description": "This course offers a deep dive into machine learning, a key component of artificial intelligence. You'll learn the core algorithms like linear regression, decision trees, and neural networks. With hands-on projects, you’ll build models that can predict trends and classify data, preparing you for a career in AI and data science.",
+    "image": "fas fa-robot",
+    "instructor": "Nour El-Deen",
+    "sponsor": "AI Innovators",
+    "price": "200$",
+    "rating": "4.9/5",
+    "duration": "14 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Solid understanding of Python and mathematics (calculus and linear algebra).",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Machine Learning"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Supervised Learning"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Unsupervised Learning"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Neural Networks and Deep Learning"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Evaluating and Deploying Models"
+      }
+    ]
+  },
+  {
+    "title": "Corporate Finance",
+    "description": "Understand financial decision-making in a business context.",
+    "full_description": "This course provides a foundational understanding of corporate finance, focusing on the decisions that drive a company's financial health. You’ll learn about capital budgeting, cost of capital, and working capital management. The course uses real-world case studies to help you apply financial theory to business situations.",
+    "image": "fas fa-chart-pie",
+    "instructor": "Ayman Mansour",
+    "sponsor": "Financial Experts",
+    "price": "150$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic understanding of financial accounting.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Corporate Finance"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Time Value of Money"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Capital Budgeting and Risk"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Financing Decisions and WACC"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Dividends and Payout Policy"
+      }
+    ]
+  },
+  {
+    "title": "User Research",
+    "description": "Learn how to conduct research to understand user behavior and needs.",
+    "full_description": "User research is the foundation of great product design. This course will teach you various research methods, including user interviews, surveys, and usability testing. You’ll learn how to analyze your findings and turn them into actionable insights that can improve your products and services.",
+    "image": "fas fa-search",
+    "instructor": "Jane Smith",
+    "sponsor": "Design Hub",
+    "price": "95$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to User Research"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Planning and Conducting User Interviews"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Surveys and A/B Testing"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Analyzing and Synthesizing Research Data"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Presenting Findings and Recommendations"
+      }
+    ]
+  },
+  {
+    "title": "Animation",
+    "description": "An introduction to 2D and 3D animation, from concepts to final production.",
+    "full_description": "Bring your ideas to life with this comprehensive course on animation. You'll learn the 12 principles of animation and apply them to both 2D and 3D projects. The curriculum covers character rigging, keyframe animation, and rendering, giving you a strong foundation to create compelling animated sequences.",
+    "image": "fas fa-magic",
+    "instructor": "Karim Emad",
+    "sponsor": "VFX Studios",
+    "price": "140$",
+    "rating": "4.7/5",
+    "duration": "12 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic drawing skills are helpful but not required.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The 12 Principles of Animation"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Introduction to 2D Animation"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "3D Modeling and Texturing"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Rigging and Character Animation"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Lighting, Rendering, and Final Production"
+      }
+    ]
+  },
+  {
+    "title": "Cloud Computing",
+    "description": "Explore the basics of cloud services like AWS, Azure, and Google Cloud.",
+    "full_description": "This course is your gateway to the world of cloud computing. You'll learn the fundamental concepts of cloud infrastructure, including IaaS, PaaS, and SaaS. We'll explore the services offered by major cloud providers like AWS, Azure, and Google Cloud, focusing on how to deploy and manage applications and data in the cloud.",
+    "image": "fas fa-cloud",
+    "instructor": "Mostafa Mahmoud",
+    "sponsor": "Secure Corp",
+    "price": "160$",
+    "rating": "4.8/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic networking knowledge is recommended.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Cloud Computing"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Cloud Service Models (IaaS, PaaS, SaaS)"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "AWS Fundamentals"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Azure Fundamentals"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Google Cloud Platform Fundamentals"
+      }
+    ]
+  },
+  {
+    "title": "Copywriting",
+    "description": "Master the art of writing persuasive and effective marketing copy.",
+    "full_description": "Learn to write words that sell. This course covers the principles of persuasive writing for marketing and advertising. You'll learn how to craft compelling headlines, write clear and engaging body copy, and create calls-to-action that convert. We'll explore different types of copy, from emails and social media posts to website content.",
+    "image": "fas fa-pen-nib",
+    "instructor": "John Doe",
+    "sponsor": "WriteNow",
+    "price": "70$",
+    "rating": "4.6/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Fundamentals of Persuasive Writing"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Crafting Compelling Headlines and Introductions"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Writing for Different Platforms"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Editing and Polishing Your Copy"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Copywriting Ethics and Legalities"
+      }
+    ]
+  },
+  {
+    "title": "Classical Music Appreciation",
+    "description": "A journey through the history and masterpieces of classical music.",
+    "full_description": "This course is a delightful journey through the history of classical music. You'll explore the works of great composers from Bach and Mozart to Beethoven and beyond. The course is designed to help you understand the different periods of classical music, recognize key themes and instruments, and develop a deeper appreciation for this timeless art form.",
+    "image": "fas fa-music",
+    "instructor": "Amr Naguib",
+    "sponsor": "Music School",
+    "price": "50$",
+    "rating": "4.9/5",
+    "duration": "5 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Baroque Era (Bach, Handel, Vivaldi)"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "The Classical Period (Haydn, Mozart, Beethoven)"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "The Romantic Era (Chopin, Tchaikovsky, Brahms)"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Impressionism and 20th-Century Music"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "The Orchestra and Its Instruments"
+      }
+    ]
+  },
+  {
+    "title": "Child Psychology",
+    "description": "Understand the psychological development of children from infancy to adolescence.",
+    "full_description": "This course provides an overview of the key theories and stages of child development. You'll explore cognitive, social, and emotional growth from infancy through adolescence. It's a valuable course for parents, educators, and anyone interested in understanding the fascinating process of how children learn, think, and interact with the world.",
+    "image": "fas fa-child",
+    "instructor": "Nadia Saeed",
+    "sponsor": "Mindful Living",
+    "price": "110$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Child Development"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Cognitive Development: Piaget and Beyond"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Social and Emotional Development"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Language and Moral Development"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Adolescence and Identity Formation"
+      }
+    ]
+  },
+  {
+    "title": "Interior Gardening",
+    "description": "Learn how to grow and care for plants inside your home or office.",
+    "full_description": "Transform your indoor space with this guide to interior gardening. You’ll learn how to choose the right plants for your environment, understand their light and water needs, and troubleshoot common problems. The course covers everything from selecting the right pots and soil to fertilizing and repotting, making it easy to create a lush, green oasis indoors.",
+    "image": "fas fa-spa",
+    "instructor": "Fatma Mahmoud",
+    "sponsor": "Green Earth",
+    "price": "45$",
+    "rating": "4.8/5",
+    "duration": "4 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Choosing the Right Plants"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Light and Watering Needs"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Potting and Soil"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Pest Control and Maintenance"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Advanced Interior Garden Design"
+      }
+    ]
+  },
+  {
+    "title": "Financial Accounting",
+    "description": "A comprehensive course on the principles of financial accounting and reporting.",
+    "full_description": "This course provides a thorough understanding of financial accounting principles and practices. You'll learn how to record transactions, prepare financial statements like the balance sheet and income statement, and analyze a company’s financial health. It’s a crucial course for business students, entrepreneurs, and anyone managing a company's finances.",
+    "image": "fas fa-calculator",
+    "instructor": "Soha Emad",
+    "sponsor": "PMP Certified",
+    "price": "100$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Accounting Cycle"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "The Income Statement and Balance Sheet"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Statement of Cash Flows"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Inventory and Cost of Goods Sold"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Analyzing Financial Statements"
+      }
+    ]
+  },
+  {
+    "title": "Graphic Novel Writing",
+    "description": "Learn to combine visual storytelling with compelling narratives.",
+    "full_description": "This course is for anyone who loves comics and wants to create their own. You'll learn the unique art of writing for a graphic novel, including structuring a story, creating characters, and scripting for visual scenes. The course will guide you through the process of developing a complete graphic novel from concept to a final script.",
+    "image": "fas fa-book-reader",
+    "instructor": "Mahmoud Soliman",
+    "sponsor": "Writer's Guild",
+    "price": "65$",
+    "rating": "4.6/5",
+    "duration": "7 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Visual Storytelling"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Character and World Building"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Scripting a Graphic Novel"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Paneling and Pacing"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Working with an Artist"
+      }
+    ]
+  },
+  {
+    "title": "Human Resources Management",
+    "description": "Understand the key functions of HR, from recruitment to employee relations.",
+    "full_description": "Learn the essential functions of a modern human resources department. This course covers everything from hiring and onboarding new employees to managing performance reviews and resolving workplace conflicts. You'll gain the skills to build a positive work environment and contribute to a company's success through its most valuable asset: its people.",
+    "image": "fas fa-handshake",
+    "instructor": "Lamia Said",
+    "sponsor": "HR Professionals",
+    "price": "130$",
+    "rating": "4.8/5",
+    "duration": "9 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Role of HR in an Organization"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Recruitment and Selection"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Employee Training and Development"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Performance Management"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Workplace Relations and Law"
+      }
+    ]
+  },
+  {
+    "title": "Cybersecurity for Beginners",
+    "description": "Essential skills to protect yourself from common online threats.",
+    "full_description": "This introductory course provides the knowledge and skills to protect your personal and professional digital life. You'll learn about common cyber threats like phishing and malware, and how to use strong passwords and secure networks. The course gives you a practical foundation to stay safe online and understand basic cybersecurity principles.",
+    "image": "fas fa-shield-alt",
+    "instructor": "Khaled Adel",
+    "sponsor": "Secure Corp",
+    "price": "90$",
+    "rating": "4.7/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Cybersecurity"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Common Cyber Threats"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Protecting Your Devices and Networks"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Online Privacy and Safe Browsing"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Responding to a Security Incident"
+      }
+    ]
+  },
+  {
+    "title": "Podcast Creation",
+    "description": "A step-by-step guide to starting, recording, and editing your own podcast.",
+    "full_description": "Launch your own podcast with this step-by-step guide. You’ll learn how to develop a podcast concept, select the right equipment, record high-quality audio, and edit your episodes. The course also covers how to publish and promote your podcast to build a loyal audience and grow your show.",
+    "image": "fas fa-podcast",
+    "instructor": "Omar Hassan",
+    "sponsor": "Voice Talents",
+    "price": "85$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "Access to a microphone and computer with audio editing software.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Podcast Ideation and Planning"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Equipment and Recording Setup"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Audio Editing Fundamentals"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Publishing and Hosting Your Podcast"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Marketing and Audience Growth"
+      }
+    ]
+  },
+  {
+    "title": "Data Science with Python",
+    "description": "Learn to use Python to analyze, visualize, and model data.",
+    "full_description": "Master the essentials of data science using Python. This course covers core libraries like Pandas, NumPy, and Scikit-learn to help you clean, analyze, and visualize data. You'll work on practical projects to build and evaluate machine learning models, giving you the skills needed to tackle real-world data science problems.",
+    "image": "fas fa-python",
+    "instructor": "Mona Samir",
+    "sponsor": "Data Insights",
+    "price": "180$",
+    "rating": "4.9/5",
+    "duration": "12 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic Python programming knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Data Science"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Data Manipulation with Pandas"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Data Visualization with Matplotlib and Seaborn"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Machine Learning with Scikit-learn"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Case Studies and Final Project"
+      }
+    ]
+  },
+  {
+    "title": "Architectural Design",
+    "description": "An introduction to the principles of architectural drawing and design.",
+    "full_description": "This course is a creative introduction to the world of architectural design. You'll learn the principles of spatial planning, drafting, and creating compelling architectural models. The curriculum covers both traditional drawing techniques and modern software tools, helping you turn design concepts into detailed plans.",
+    "image": "fas fa-building",
+    "instructor": "Nouran El-Gendy",
+    "sponsor": "Design Hub",
+    "price": "150$",
+    "rating": "4.8/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "History of Architecture and Design"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Architectural Drafting and Drawing"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Introduction to CAD Software"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Spatial Planning and Interior Layout"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Sustainable and Green Building"
+      }
+    ]
+  },
+  {
+    "title": "Digital Photography Editing",
+    "description": "Master post-production techniques for professional photos.",
+    "full_description": "Elevate your photography with professional editing skills. This course teaches you how to use software like Adobe Lightroom and Photoshop to enhance your images. You'll master techniques for color correction, retouching, and creating stylized effects, turning your good photos into stunning works of art.",
+    "image": "fas fa-image",
+    "instructor": "Youssef Ibrahim",
+    "sponsor": "Photo Studio",
+    "price": "75$",
+    "rating": "4.7/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "Basic photography skills.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Post-Production"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Editing with Adobe Lightroom"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Advanced Techniques in Adobe Photoshop"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Color Grading and Toning"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Creating a Digital Portfolio"
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Philosophy",
+    "description": "Explore fundamental questions about existence, knowledge, and values.",
+    "full_description": "This course is an accessible introduction to the major branches of philosophy. You'll engage with timeless questions about the nature of reality, the meaning of life, and the foundations of morality. The curriculum covers the ideas of key thinkers from Plato and Aristotle to modern philosophers, encouraging you to think critically about the world around you.",
+    "image": "fas fa-lightbulb",
+    "instructor": "Hassan Ezzat",
+    "sponsor": "Mindful Living",
+    "price": "60$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "What is Philosophy?"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Ethics and Morality"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Metaphysics: The Nature of Reality"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Epistemology: The Theory of Knowledge"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Political Philosophy"
+      }
+    ]
+  },
+  {
+    "title": "SEO Fundamentals",
+    "description": "Learn how to optimize your website to rank higher in search engines.",
+    "full_description": "Master the art of Search Engine Optimization (SEO) and drive organic traffic to your website. This course covers on-page SEO, technical SEO, and link building. You’ll learn how to conduct keyword research, analyze competitor strategies, and use tools to track your website’s performance and improve its ranking on Google and other search engines.",
+    "image": "fas fa-chart-line",
+    "instructor": "Jane Smith",
+    "sponsor": "Marketing Pros",
+    "price": "100$",
+    "rating": "4.8/5",
+    "duration": "9 Weeks",
+    "level": "Beginner",
+    "prerequisites": "Basic knowledge of how websites work.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to SEO"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Keyword Research and Analysis"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "On-Page and Technical SEO"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Link Building Strategies"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "SEO Auditing and Reporting"
+      }
+    ]
+  },
+  {
+    "title": "Event Marketing",
+    "description": "Strategies for promoting and selling tickets for events.",
+    "full_description": "Learn to market and promote successful events, from concerts to corporate conferences. This course covers everything from creating a marketing plan and using social media to running paid ad campaigns and building partnerships. You'll gain practical skills to reach your target audience and drive ticket sales, ensuring your event is a success.",
+    "image": "fas fa-calendar-alt",
+    "instructor": "Soha Emad",
+    "sponsor": "Events Planners Inc.",
+    "price": "80$",
+    "rating": "4.5/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Developing an Event Marketing Strategy"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Digital Marketing for Events"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Social Media and Content Marketing"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Promotional Partnerships"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Event Analytics and ROI"
+      }
+    ]
+  },
+  {
+    "title": "Film Scoring",
+    "description": "Learn the art of composing music for movies and television.",
+    "full_description": "This course is a deep dive into the creative and technical process of composing music for film and TV. You'll learn how to use music to enhance a scene, build emotional tension, and guide the audience's experience. The curriculum covers music theory, orchestration, and the use of digital audio workstations (DAWs) to create a professional film score.",
+    "image": "fas fa-film",
+    "instructor": "Amr El-Sheikh",
+    "sponsor": "Music School",
+    "price": "120$",
+    "rating": "4.8/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic music theory and an instrument or DAW.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "History of Film Music"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "The Role of Music in Storytelling"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Composing for Different Genres"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Orchestration and Arrangement"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Syncing Music to Picture"
+      }
+    ]
+  },
+  {
+    "title": "Graphic Design Portfolio",
+    "description": "Build a professional portfolio to showcase your graphic design skills.",
+    "full_description": "A professional portfolio is essential for any graphic designer. This course guides you through the process of curating your best work, creating new projects for your portfolio, and presenting it to potential clients or employers. You’ll learn how to tell a compelling story with your designs and build a portfolio that stands out.",
+    "image": "fas fa-briefcase",
+    "instructor": "Ahmed Ali",
+    "sponsor": "Design Hub",
+    "price": "95$",
+    "rating": "4.9/5",
+    "duration": "6 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Prior graphic design experience.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Defining Your Portfolio's Purpose"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Selecting and Curating Your Work"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Creating New Portfolio Pieces"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Writing Project Descriptions"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Presenting Your Portfolio Online"
+      }
+    ]
+  },
+  {
+    "title": "Ethical Leadership",
+    "description": "Explore the importance of ethics in leadership and decision-making.",
+    "full_description": "This course is for leaders who want to make a positive impact. You'll explore the moral and ethical responsibilities of leadership, learning how to make principled decisions and foster a culture of integrity. The curriculum covers key ethical frameworks and provides real-world case studies to help you navigate complex moral dilemmas in the workplace.",
+    "image": "fas fa-users",
+    "instructor": "Maha Ali",
+    "sponsor": "Leader's Edge",
+    "price": "70$",
+    "rating": "4.7/5",
+    "duration": "5 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Foundations of Ethical Leadership"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Ethical Decision-Making Models"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Building a Culture of Integrity"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Leadership and Social Responsibility"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Case Studies in Ethical Leadership"
+      }
+    ]
+  },
+  {
+    "title": "Mobile UI/UX Design",
+    "description": "Specialized course on designing user interfaces for mobile applications.",
+    "full_description": "Focus your design skills on the world of mobile. This course covers the unique challenges and opportunities of designing user interfaces (UI) and user experiences (UX) for mobile devices. You'll learn about mobile-first design principles, user flow, prototyping, and testing to create intuitive and engaging mobile apps.",
+    "image": "fas fa-mobile-alt",
+    "instructor": "Nouran El-Gendy",
+    "sponsor": "Design Studio Pro",
+    "price": "110$",
+    "rating": "4.8/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic understanding of design principles.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Mobile-First Design Principles"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "User Flow and Wireframing"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Prototyping and Usability Testing"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Mobile Design Patterns"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Working with Developers"
+      }
+    ]
+  },
+  {
+    "title": "Cooking for Beginners",
+    "description": "Master basic culinary skills and prepare delicious, simple meals.",
+    "full_description": "Learn to cook with confidence! This course is for anyone who wants to learn the basics of cooking. You'll master essential skills like knife handling, food safety, and foundational cooking methods. The course includes simple, delicious recipes that will help you prepare your own meals and build a love for cooking.",
+    "image": "fas fa-utensils",
+    "instructor": "Khaled Fouad",
+    "sponsor": "Kitchen Masters",
+    "price": "55$",
+    "rating": "4.9/5",
+    "duration": "5 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Kitchen Safety and Tools"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Knife Skills and Food Preparation"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Basic Cooking Methods (Sautéing, Roasting, Boiling)"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Essential Sauces and Flavors"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Meal Planning and Simple Recipes"
+      }
+    ]
+  },
+  {
+    "title": "Financial Modeling",
+    "description": "Learn to build financial models for business analysis and valuation.",
+    "full_description": "This course provides the essential skills to build robust financial models in Excel. You'll learn how to forecast a company's financial performance, perform valuation analysis, and support strategic business decisions. The curriculum is hands-on, using real company data to help you build practical and accurate models.",
+    "image": "fas fa-chart-line",
+    "instructor": "Lamia Said",
+    "sponsor": "Financial Experts",
+    "price": "140$",
+    "rating": "4.8/5",
+    "duration": "10 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Strong Excel skills and a solid understanding of financial accounting.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Financial Modeling"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Building a 3-Statement Model"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Discounted Cash Flow (DCF) Valuation"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Merger & Acquisition (M&A) Modeling"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Sensitivity Analysis and Scenario Modeling"
+      }
+    ]
+  },
+  {
+    "title": "Sustainable Fashion",
+    "description": "Explore eco-friendly practices in the fashion industry.",
+    "full_description": "This course is for anyone passionate about fashion and the environment. You'll learn about the social and environmental impact of the fashion industry and discover sustainable practices, from ethical sourcing to circular design. The curriculum covers how to make eco-friendly choices in your personal style and contribute to a more sustainable future for fashion.",
+    "image": "fas fa-leaf",
+    "instructor": "Sarah Johnson",
+    "sponsor": "Style Academy",
+    "price": "80$",
+    "rating": "4.6/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Environmental Impact of Fashion"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Ethical Sourcing and Production"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Circular Fashion and Upcycling"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Sustainable Materials and Textiles"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building a Sustainable Wardrobe"
+      }
+    ]
+  },
+  {
+    "title": "Artificial Intelligence in Business",
+    "description": "Learn how AI can be applied to solve business problems.",
+    "full_description": "This course bridges the gap between AI technology and business strategy. You'll learn how AI is used in various industries to automate processes, personalize customer experiences, and analyze data for better decision-making. The curriculum focuses on a non-technical understanding of AI and provides case studies of successful AI implementation in the corporate world.",
+    "image": "fas fa-robot",
+    "instructor": "John Doe",
+    "sponsor": "AI Innovators",
+    "price": "170$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to AI and its Business Applications"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "AI in Customer Service and Sales"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Using AI for Data Analysis and Forecasting"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "AI in Operations and Supply Chain"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Ethical Considerations of AI"
+      }
+    ]
+  },
+  {
+    "title": "VFX Fundamentals",
+    "description": "An introduction to visual effects for film and video.",
+    "full_description": "Step into the world of movie magic with this course on visual effects. You'll learn the core principles of VFX, including green screen compositing, motion tracking, and creating realistic digital environments. The course uses professional software to give you the skills to integrate CGI with live-action footage and create stunning visual sequences.",
+    "image": "fas fa-magic",
+    "instructor": "Karim Emad",
+    "sponsor": "VFX Studios",
+    "price": "120$",
+    "rating": "4.6/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "Basic video editing knowledge is recommended.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The History and Types of VFX"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Green Screen and Compositing"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Motion Tracking and Stabilization"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Creating 3D Elements and Environments"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "VFX Workflow and Project Management"
+      }
+    ]
+  },
+  {
+    "title": "Advanced Python Programming",
+    "description": "A deep dive into advanced Python concepts for experienced programmers.",
+    "full_description": "Take your Python skills to the next level. This course is for experienced programmers who want to master advanced topics like decorators, generators, and asynchronous programming. You'll learn how to write cleaner, more efficient code and tackle complex projects, preparing you for senior developer or data scientist roles.",
+    "image": "fas fa-laptop-code",
+    "instructor": "Ali Hamdy",
+    "sponsor": "Code Academy",
+    "price": "150$",
+    "rating": "4.9/5",
+    "duration": "12 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Strong foundational knowledge of Python programming.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Advanced Data Structures and Algorithms"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Decorators and Generators"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Asynchronous Programming"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Testing and Debugging"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Object-Oriented Programming (OOP) in-depth"
+      }
+    ]
+  },
+  {
+    "title": "Meditation and Mindfulness",
+    "description": "Techniques for stress reduction and improving mental clarity.",
+    "full_description": "Find calm in your life with this course on meditation and mindfulness. You'll learn various meditation techniques to reduce stress, improve focus, and increase self-awareness. The course includes guided sessions and practical exercises to help you build a daily mindfulness practice that fits into your busy schedule.",
+    "image": "fas fa-om",
+    "instructor": "Hoda Ezz",
+    "sponsor": "Wellness Center",
+    "price": "30$",
+    "rating": "4.9/5",
+    "duration": "4 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Understanding Mindfulness and Its Benefits"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Basic Meditation Techniques"
+      },
+      {
+        "chapter_title": "Mindful Breathing and Body Scans"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Overcoming Distractions"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building a Daily Practice"
+      }
+    ]
+  },
+  {
+    "title": "Film Theory",
+    "description": "Explore the critical analysis of cinema and its cultural impact.",
+    "full_description": "This course is for film lovers who want to go beyond the screen. You'll learn the key concepts of film theory, including mise-en-scène, cinematography, and editing. The curriculum analyzes classic films to help you understand how directors and cinematographers tell a story, and how cinema reflects and influences culture and society.",
+    "image": "fas fa-film",
+    "instructor": "Fatma Farouk",
+    "sponsor": "History Channel",
+    "price": "70$",
+    "rating": "4.6/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Language of Film"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Narrative and Genre Theory"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Auteur Theory and Film Directors"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Film and Society"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Contemporary Film Movements"
+      }
+    ]
+  },
+  {
+    "title": "Game Design Principles",
+    "description": "Understand the core principles behind creating engaging game experiences.",
+    "full_description": "This course teaches you the fundamental principles that make games fun and engaging. You'll learn about game mechanics, level design, and player psychology. The curriculum covers a variety of game genres and platforms, giving you the skills to design your own game concepts from the ground up.",
+    "image": "fas fa-gamepad",
+    "instructor": "Khaled Adel",
+    "sponsor": "Game Dev Club",
+    "price": "100$",
+    "rating": "4.7/5",
+    "duration": "9 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "What Makes a Game Fun?"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Game Mechanics and Rules"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Level Design and Pacing"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Player Motivation and Psychology"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Prototyping Your Game Idea"
+      }
+    ]
+  },
+  {
+    "title": "UI Animation",
+    "description": "Learn to create stunning animations for user interfaces.",
+    "full_description": "Bring your user interfaces to life with this course on UI animation. You’ll learn how to use motion to improve user experience, guide attention, and create a more polished product. The course covers key principles of motion design and uses software like Adobe After Effects to create smooth and delightful UI animations.",
+    "image": "fas fa-laptop-code",
+    "instructor": "Hassan Ezzat",
+    "sponsor": "Design Studio Pro",
+    "price": "90$",
+    "rating": "4.8/5",
+    "duration": "7 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic UI/UX design knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The Role of Animation in UI"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Principles of Motion Design"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Prototyping with Animation Tools"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Animating Microinteractions"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "UI Animation for Different Platforms"
+      }
+    ]
+  },
+  {
+    "title": "English Pronunciation",
+    "description": "Improve your English pronunciation and speaking confidence.",
+    "full_description": "Speak English more clearly and confidently. This course focuses on the sounds of the English language, including vowels, consonants, and stress patterns. You’ll learn techniques to improve your articulation and intonation, and practice with common phrases and sentences to sound more like a native speaker.",
+    "image": "fas fa-microphone",
+    "instructor": "Mariam Gamal",
+    "sponsor": "Language Hub",
+    "price": "45$",
+    "rating": "4.7/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "Basic English speaking ability.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to English Sounds"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Vowel and Consonant Sounds"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Word Stress and Intonation"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Connecting Speech and Rhythm"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Practice and Fluency"
+      }
+    ]
+  },
+  {
+    "title": "Interior Lighting Design",
+    "description": "Master the use of lighting to enhance indoor spaces.",
+    "full_description": "Learn to use light to transform any space. This course covers the principles of interior lighting design, including ambient, task, and accent lighting. You’ll learn about different types of fixtures, color temperature, and how to create a mood and highlight architectural features to design a beautiful and functional space.",
+    "image": "fas fa-lightbulb",
+    "instructor": "Nouran El-Gendy",
+    "sponsor": "Home Style Co.",
+    "price": "85$",
+    "rating": "4.6/5",
+    "duration": "7 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Fundamentals of Lighting"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Layering Light (Ambient, Task, Accent)"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Lighting Fixtures and Controls"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Color Temperature and Light Quality"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Lighting Design for Different Rooms"
+      }
+    ]
+  },
+  {
+    "title": "Data-Driven Marketing",
+    "description": "Use data to inform and optimize your marketing campaigns.",
+    "full_description": "This course is for marketers who want to use data to make smarter decisions. You'll learn how to collect, analyze, and interpret data from various marketing channels. The curriculum covers key performance indicators (KPIs), A/B testing, and using analytics tools to measure campaign effectiveness and optimize for better results.",
+    "image": "fas fa-chart-line",
+    "instructor": "Omar Hassan",
+    "sponsor": "Marketing Pros",
+    "price": "120$",
+    "rating": "4.8/5",
+    "duration": "8 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic marketing knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Marketing Analytics"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Data Collection and Analysis"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Key Performance Indicators (KPIs) and Metrics"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "A/B Testing and Conversion Rate Optimization"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Reporting and Dashboards"
+      }
+    ]
+  },
+  {
+    "title": "Advanced Culinary Arts",
+    "description": "Explore gourmet techniques and complex recipes for aspiring chefs.",
+    "full_description": "Take your cooking skills to a professional level. This course is designed for those with basic cooking experience and a passion for gourmet food. You’ll learn advanced techniques like sous-vide, complex sauces, and pastry making. The curriculum includes challenging recipes that will elevate your culinary expertise and impress your friends and family.",
+    "image": "fas fa-utensils",
+    "instructor": "Khaled Fouad",
+    "sponsor": "Kitchen Masters",
+    "price": "150$",
+    "rating": "4.9/5",
+    "duration": "10 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Prior cooking experience.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Mastering Advanced Techniques"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Molecular Gastronomy Basics"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Advanced Baking and Patisserie"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Plating and Food Presentation"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Creating a Tasting Menu"
+      }
+    ]
+  },
+  {
+    "title": "Cybersecurity for Businesses",
+    "description": "Protect company data and systems from corporate cyber threats.",
+    "full_description": "This course is for IT professionals and business owners who want to secure their company’s digital assets. You'll learn about corporate network security, data protection, and incident response planning. The curriculum covers key regulations and best practices to build a resilient and secure business environment against evolving cyber threats.",
+    "image": "fas fa-shield-alt",
+    "instructor": "Ayman Mansour",
+    "sponsor": "Secure Corp",
+    "price": "190$",
+    "rating": "4.8/5",
+    "duration": "12 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Basic IT and networking knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Enterprise Cybersecurity Fundamentals"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Network and Endpoint Security"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Data Protection and Encryption"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Incident Response and Recovery"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Cybersecurity Governance and Compliance"
+      }
+    ]
+  },
+  {
+    "title": "Technical Writing",
+    "description": "Learn to write clear and concise documentation for technical products.",
+    "full_description": "This course teaches you to create effective and user-friendly technical documentation. You’ll learn how to write clear instructions, user manuals, and API documentation for a technical audience. The curriculum focuses on organization, clarity, and precision, giving you the skills to communicate complex technical information simply.",
+    "image": "fas fa-book-open",
+    "instructor": "John Doe",
+    "sponsor": "WriteNow",
+    "price": "60$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Technical Writing"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Audience Analysis and Research"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Structuring Technical Documents"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Writing Clear Instructions and Procedures"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Editing and User Testing"
+      }
+    ]
+  },
+  {
+    "title": "Brand Strategy",
+    "description": "Build a strong brand identity and positioning for your business.",
+    "full_description": "Learn to build a powerful brand that connects with your audience. This course covers the key components of brand strategy, from defining your brand purpose and values to creating a unique brand voice and visual identity. You’ll learn how to position your brand in a competitive market and build a loyal customer base.",
+    "image": "fas fa-lightbulb",
+    "instructor": "Jane Smith",
+    "sponsor": "Design Hub",
+    "price": "110$",
+    "rating": "4.9/5",
+    "duration": "7 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "What is Brand Strategy?"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Defining Brand Purpose and Values"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Target Audience and Market Positioning"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Brand Voice and Visual Identity"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Launching and Managing a Brand"
+      }
+    ]
+  },
+  {
+    "title": "Advanced Yoga",
+    "description": "Deepen your yoga practice with advanced poses and sequences.",
+    "full_description": "This course is for experienced yoga practitioners who want to expand their practice. You'll learn advanced asanas, breathwork techniques, and complex sequences. The curriculum provides detailed instruction on alignment and modifications, helping you safely deepen your practice and explore more challenging poses.",
+    "image": "fas fa-om",
+    "instructor": "Hoda Ezz",
+    "sponsor": "Wellness Center",
+    "price": "50$",
+    "rating": "4.8/5",
+    "duration": "6 Weeks",
+    "level": "Advanced",
+    "prerequisites": "At least 6 months of consistent yoga practice.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Advanced Asanas and Transitions"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Pranayama (Breathwork) Techniques"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Arm Balances and Inversions"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Sequencing and Flow"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "The Philosophy of Advanced Yoga"
+      }
+    ]
+  },
+  {
+    "title": "Documentary Filmmaking",
+    "description": "Learn to create powerful and compelling documentary films.",
+    "full_description": "Tell real stories with impact. This course covers the entire documentary filmmaking process, from concept and research to shooting and editing. You'll learn how to find compelling subjects, conduct effective interviews, and structure your footage to create a powerful and emotionally resonant film.",
+    "image": "fas fa-film",
+    "instructor": "Youssef Ibrahim",
+    "sponsor": "Media Masters",
+    "price": "130$",
+    "rating": "4.7/5",
+    "duration": "10 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic video production knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Documentary"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Research and Story Development"
+      },
+      {
+        "chapter_title": "Interview Techniques and Cinematography"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Editing and Post-Production"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Distribution and Film Festivals"
+      }
+    ]
+  },
+  {
+    "title": "Public Speaking for Professionals",
+    "description": "Master public speaking in a corporate and professional setting.",
+    "full_description": "Speak with confidence and authority in any professional setting. This course covers techniques for delivering powerful presentations, communicating with clarity, and engaging your audience. You'll learn how to structure a speech, manage stage fright, and use body language to convey confidence and credibility.",
+    "image": "fas fa-bullhorn",
+    "instructor": "Maha Ali",
+    "sponsor": "Speaker's Club",
+    "price": "90$",
+    "rating": "4.8/5",
+    "duration": "7 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Overcoming Public Speaking Anxiety"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Structuring a Professional Speech"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Vocal Delivery and Body Language"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Audience Engagement and Q&A"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Speaking in Corporate and Online Settings"
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Psychology",
+    "description": "An overview of the scientific study of the mind and behavior.",
+    "full_description": "This course is a fascinating introduction to the field of psychology. You'll explore the core concepts of human behavior, from how we learn and think to why we feel certain emotions. The curriculum covers key psychological theories and research, giving you a deeper understanding of yourself and the people around you.",
+    "image": "fas fa-brain",
+    "instructor": "Fatma Farouk",
+    "sponsor": "History Channel",
+    "price": "50$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "The History of Psychology"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Brain and Behavior"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Learning and Conditioning"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Memory and Cognition"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Personality and Social Psychology"
+      }
+    ]
+  },{
+    "title": "Introduction to Robotics",
+    "description": "Learn the fundamentals of building and programming simple robots.",
+    "full_description": "This course is a hands-on introduction to the exciting field of robotics. You’ll learn the basics of robot mechanics, electronics, and programming. The curriculum uses an accessible platform to help you build and program your own robot, covering everything from simple movements to sensor integration and basic decision-making algorithms.",
+    "image": "fas fa-robot",
+    "instructor": "Mostafa Mahmoud",
+    "sponsor": "Tech Innovators",
+    "price": "130$",
+    "rating": "4.8/5",
+    "duration": "10 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Fundamentals of Robotics"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Electronics and Motors"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Programming with Arduino"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Sensors and Data Collection"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building Your First Robot"
+      }
+    ]
+  },
+  {
+    "title": "Creative Writing",
+    "description": "Develop your skills in fiction, poetry, and narrative storytelling.",
+    "full_description": "Unleash your inner writer with this course on creative writing. You'll explore different genres, including short fiction, poetry, and personal essays. The curriculum covers key elements of storytelling like plot, character development, and dialogue, with writing prompts and peer feedback to help you hone your craft and find your unique voice.",
+    "image": "fas fa-feather-alt",
+    "instructor": "Mahmoud Soliman",
+    "sponsor": "Writer's Guild",
+    "price": "55$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Finding Your Voice"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Plot and Story Structure"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Character and Dialogue"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Writing in Different Genres"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Editing and Revision"
+      }
+    ]
+  },
+  {
+    "title": "Marketing Analytics",
+    "description": "Use data to measure the effectiveness of marketing campaigns.",
+    "full_description": "This course is for marketers who want to make data-driven decisions. You'll learn how to use analytics tools to track website traffic, measure campaign performance, and understand customer behavior. The curriculum covers key metrics and reporting, giving you the skills to prove the ROI of your marketing efforts and optimize for better results.",
+    "image": "fas fa-chart-bar",
+    "instructor": "Omar Hassan",
+    "sponsor": "Marketing Pros",
+    "price": "140$",
+    "rating": "4.8/5",
+    "duration": "9 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic marketing knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Marketing Analytics"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Google Analytics and Reporting"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Analyzing Social Media and Email Campaigns"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Customer Segmentation and Behavior Analysis"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Attribution and ROI Measurement"
+      }
+    ]
+  },
+  {
+    "title": "Supply Chain Technology",
+    "description": "Explore the role of technology in modern supply chain management.",
+    "full_description": "This course focuses on the technological innovations that are transforming supply chain management. You'll learn about systems like ERP, IoT, and blockchain and their applications in logistics, inventory management, and demand forecasting. The curriculum is designed to help you understand how technology can create a more efficient, transparent, and resilient supply chain.",
+    "image": "fas fa-truck",
+    "instructor": "Sherif Hassan",
+    "sponsor": "Logistics Pro",
+    "price": "180$",
+    "rating": "4.7/5",
+    "duration": "8 Weeks",
+    "level": "Advanced",
+    "prerequisites": "Basic supply chain knowledge.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Digital Transformation in Supply Chain"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Enterprise Resource Planning (ERP)"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "IoT and Data Analytics"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Blockchain and Supply Chain Transparency"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Future of Supply Chain Technology"
+      }
+    ]
+  },
+  {
+    "title": "Painting for Beginners",
+    "description": "Learn the basics of painting with different media like acrylic and oil.",
+    "full_description": "Discover the joy of painting with this introductory course. You'll learn fundamental techniques for mixing colors, using different brushstrokes, and creating depth and texture. The curriculum covers both acrylic and oil painting, providing practical exercises to help you create your first beautiful artworks with confidence.",
+    "image": "fas fa-palette",
+    "instructor": "Amr El-Sheikh",
+    "sponsor": "Artisan Guild",
+    "price": "60$",
+    "rating": "4.8/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Tools and Color Theory"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Introduction to Acrylic Painting"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Introduction to Oil Painting"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Composition and Form"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Creating Your First Painting"
+      }
+    ]
+  },
+  {
+    "title": "AI Ethics",
+    "description": "Explore the ethical and social implications of artificial intelligence.",
+    "full_description": "As AI becomes more integrated into our lives, understanding its ethical implications is crucial. This course examines the moral, social, and legal challenges posed by AI technologies, from algorithmic bias to privacy concerns and the future of work. You’ll learn to think critically about AI development and its impact on society.",
+    "image": "fas fa-robot",
+    "instructor": "Fatma Farouk",
+    "sponsor": "AI Innovators",
+    "price": "100$",
+    "rating": "4.9/5",
+    "duration": "7 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to AI Ethics"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Algorithmic Bias and Fairness"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Data Privacy and Surveillance"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "AI in the Workplace"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Regulation and Governance of AI"
+      }
+    ]
+  },
+  {
+    "title": "Game Development with Unity",
+    "description": "Learn to create games for different platforms using the Unity engine.",
+    "full_description": "Turn your game ideas into reality with this course on Unity. You'll learn the fundamentals of the Unity game engine, including C# scripting, game physics, and level design. The curriculum is project-based, guiding you through the process of building a simple game for multiple platforms, from concept to a final, playable product.",
+    "image": "fas fa-gamepad",
+    "instructor": "Khaled Adel",
+    "sponsor": "Game Dev Club",
+    "price": "180$",
+    "rating": "4.8/5",
+    "duration": "12 Weeks",
+    "level": "Intermediate",
+    "prerequisites": "Basic C# programming knowledge is recommended.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Introduction to Unity"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Scripting with C#"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Game Physics and Collisions"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "User Interface (UI) Design"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Building and Publishing Your Game"
+      }
+    ]
+  },
+  {
+    "title": "Business Writing",
+    "description": "Improve your written communication skills in a professional setting.",
+    "full_description": "This course teaches you to write clear, concise, and professional business documents. You'll learn how to write effective emails, reports, proposals, and presentations. The curriculum focuses on structuring your writing, using a professional tone, and getting your message across clearly and efficiently in the workplace.",
+    "image": "fas fa-book-open",
+    "instructor": "Lamia Said",
+    "sponsor": "WriteNow",
+    "price": "65$",
+    "rating": "4.6/5",
+    "duration": "6 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Writing Effective Emails"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Reports and Proposals"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Writing for Presentations"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Professional Tone and Style"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Proofreading and Editing"
+      }
+    ]
+  },
+  {
+    "title": "Public Speaking for Students",
+    "description": "Build confidence and skills for delivering presentations and speeches.",
+    "full_description": "This course is designed for students who want to become more confident and effective public speakers. You'll learn how to structure a presentation, manage nerves, and engage your audience. The curriculum includes practical exercises and tips for preparing for school presentations, debates, and group projects.",
+    "image": "fas fa-microphone",
+    "instructor": "Mariam Gamal",
+    "sponsor": "Speaker's Club",
+    "price": "40$",
+    "rating": "4.7/5",
+    "duration": "5 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Dealing with Stage Fright"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Structuring Your Presentation"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Vocal and Body Language"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Using Visual Aids"
+      },
+      {
+        "chapter_title": "Practice and Performance"
+      }
+    ]
+  },
+  {
+    "title": "Modern Art History",
+    "description": "Explore the major art movements from the late 19th century to today.",
+    "full_description": "This course is a vibrant journey through the history of modern art. You'll explore influential movements like Impressionism, Cubism, Surrealism, and Pop Art. The curriculum examines the lives and works of key artists and helps you understand how art has evolved in response to social and political changes, from the late 1800s to the present day.",
+    "image": "fas fa-paint-brush",
+    "instructor": "Ahmed Ali",
+    "sponsor": "Art History Academy",
+    "price": "75$",
+    "rating": "4.9/5",
+    "duration": "8 Weeks",
+    "level": "Beginner",
+    "prerequisites": "None.",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "chapter_title": "Impressionism and Post-Impressionism"
+      },
+      {
+        "chapter_number": 2,
+        "chapter_title": "Fauvism, Expressionism, and Cubism"
+      },
+      {
+        "chapter_number": 3,
+        "chapter_title": "Surrealism and Abstract Expressionism"
+      },
+      {
+        "chapter_number": 4,
+        "chapter_title": "Pop Art and Contemporary Art"
+      },
+      {
+        "chapter_number": 5,
+        "chapter_title": "Art and Society"
+      }
+    ]
   }
+
+
 ]

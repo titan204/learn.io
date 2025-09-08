@@ -89,6 +89,7 @@ body{
     position: absolute;
     right: 10px;
     z-index: 10;
+
 }
 
 
@@ -115,9 +116,9 @@ body{
     border-radius:50px ;
     padding: 0 10px ;
     border: 3px solid var(--pumpkin);
-    box-shadow: inset 1px 1px 30px 4px var(--orange-peel);
+    box-shadow: inset 1px 1px 10px 1px var(--orange-peel);
     height: 50px;
-    background-color: var(--french-violet);
+    background-color: var(--russian-violet);
 }
 
 .search-box input{
@@ -126,12 +127,17 @@ body{
     border: 3px solid var(--pumpkin);
     box-shadow: inset 1px 1px 20px 3px var(--orange-peel);
     height: 50px;
-    background-color: var(--amethyst);
+    background-color: var(--russian-violet);
     transition: all 1s ease;
     color: white;
     font-size: 15px;
 }
 
+.not-found{
+    color: rgb(249, 91, 91);
+    font-size: 20px;
+
+}
 
 .search-box input:focus{
     outline: none;
@@ -158,8 +164,6 @@ body{
     min-height: 80%;
     width: 90%;
     border-radius: 30px;
-    z-index: 100;
-    z-index: 100;
     backdrop-filter: blur(5px); 
     -webkit-backdrop-filter: blur(5px); 
     transform: translateY(20px);
@@ -172,8 +176,10 @@ body{
     row-gap: 50px;
     justify-items: center;   
     justify-content: center;
-
+        z-index: 10;
+    position: relative;
 }
+
 
 
 .corse-box{
@@ -187,6 +193,46 @@ body{
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
     transition: transform 0.3s ease-in-out;
     row-gap: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.corse-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  /* left: -100%; */
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-30deg); 
+  opacity: .5;
+  transition :left 1s ease;
+
+}
+
+.corse-box:hover::after {
+  animation: shine 0.8s forwards;
+
+}
+
+@keyframes shine {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 150%;
+  }
+}
+
+.corse-box:hover{
+    transform: scale(1.02);
+    transform: translateY(-4px);
 }
 
 .corse-box img{
