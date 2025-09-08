@@ -1,9 +1,9 @@
 // change background color
 const colorPalette = [
-  { cardBackground: 'linear-gradient(135deg, #FFF, #FFF)', buttonColor: '#FF7F50', textColor: '#000' },
+  { cardBackground: 'linear-gradient(135deg, #ffffffff, #0026fcff)', buttonColor: '#FF7F50', textColor: '#000' },
   { cardBackground: 'linear-gradient(135deg, #8C53FF, #6B3AFF)', buttonColor: '#FFF', textColor: '#FFF' },
-  { cardBackground: 'linear-gradient(135deg, #FFF, #FFF)', buttonColor: '#FF9944', textColor: '#000' },
-  { cardBackground: 'linear-gradient(135deg, #FF8D33, #FF6B4A)', buttonColor: '#FFF', textColor: '#FFF' },
+  { cardBackground: 'linear-gradient(135deg, #0073ffff, #FFF)', buttonColor: '#8644ffff', textColor: '#000' },
+  { cardBackground: 'linear-gradient(135deg, #FF8D33, #FF6B4A)', buttonColor: '#ff4800ff', textColor: '#FFF' },
   { cardBackground: 'linear-gradient(135deg, #FF6D00, #9D4EDD)', buttonColor: '#FFF', textColor: '#FFF' },
   { cardBackground: 'linear-gradient(135deg, #5A189A, #3C096C)', buttonColor: '#FFF', textColor: '#FFF' },
   { cardBackground: 'linear-gradient(135deg, #7B2CBF, #9D4EDD)', buttonColor: '#FFF', textColor: '#FFF' },
@@ -52,7 +52,11 @@ function makebox(title, des, icon_calss, price) {
   let but = document.createElement("button");
   but.className = "but";
   but.textContent = "See more";
+  but.dataset.title_atr = title
+  but.onclick=()=>{make_pop_up(title)};
+  
   box.appendChild(but);
+
 
   course_contaner.appendChild(box);
 }
@@ -115,6 +119,68 @@ input_bar.addEventListener("input", () => {
     }
   }
 });
+
+
+let pop_up_container = document.querySelector(".pop-up-container");
+function make_pop_up(title) {
+
+    let course_ob = null;
+    for (let course of course_container_backup) {
+        if (course.title === title) {
+            course_ob = course;
+            break;
+        }
+    }
+
+    if (!course_ob) return; 
+
+    let icon = pop_up_container.querySelector("i");
+    icon.className = course_ob.image + " icont"; 
+
+    let popTitle = pop_up_container.querySelector(".pop-title");
+    popTitle.textContent = course_ob.title;
+
+    let section = pop_up_container.querySelector("section");
+    section.textContent = course_ob.full_description;
+
+    pop_up_container.querySelector(".sposer").textContent = "Sponsor: " + course_ob.sponsor;
+    pop_up_container.querySelector(".rating").textContent = "Rating: " + course_ob.rating;
+    pop_up_container.querySelector(".duration").textContent = "Duration: " + course_ob.duration;
+    pop_up_container.querySelector(".level").textContent = "Level: " + course_ob.level;
+    pop_up_container.querySelector(".prerequisites").textContent = "Prerequisites: " + course_ob.prerequisites;
+    pop_up_container.querySelector(".price").textContent = "Price: " + course_ob.price;
+
+
+    let chaptersContainer = pop_up_container.querySelector(".chapters-contaner");
+    chaptersContainer.innerHTML = "";
+
+    course_ob.chapters.forEach(chapter => {
+        let chapterDiv = document.createElement("div");
+        chapterDiv.classList.add("chapter");
+
+        let p = document.createElement("p");
+        p.textContent = chapter.chapter_number + ". " + chapter.chapter_title;
+
+        let lockIcon = document.createElement("i");
+        lockIcon.className = "lock-icon fa-solid fa-lock";
+
+        chapterDiv.appendChild(p);
+        chapterDiv.appendChild(lockIcon);
+
+        chaptersContainer.appendChild(chapterDiv);
+    });
+
+    pop_up_container.style.display = "grid";
+  
+}
+
+document.addEventListener("keydown",(event)=>{
+    if (pop_up_container.style.display != "none"&&event.key=="Escape"){
+        pop_up_container.style.display = "none";
+    }
+})
+
+
 
 // nav bar
 fetch('../html/navbar.html')

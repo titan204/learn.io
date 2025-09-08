@@ -221,14 +221,7 @@ body{
 
 }
 
-@keyframes shine {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 150%;
-  }
-}
+
 
 .corse-box:hover{
     transform: scale(1.02);
@@ -260,8 +253,178 @@ body{
     color: white;
 }
 
-@media (max-width:700px) {
-    .search-box{
-        width: 90%;
+
+
+/* pop up container*/
+
+.pop-up-container{
+    
+    color: white;
+    background-color:#fafafa1d;
+    position:fixed;
+    z-index: 1000000;
+    top :10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    border-radius: 30px;
+    padding: 30px;
+    backdrop-filter: blur(25px); 
+    -webkit-backdrop-filter: blur(25px); 
+    display: grid;
+    grid-template-areas: "logo logo"
+                        "title title"
+                        "caption info"
+                        "chapters button";
+    grid-template-columns: 3fr 1fr;  /* عمودين */
+    grid-template-rows:auto auto auto 1fr;
+    display: none;
+    overflow-y:auto ;
+}
+
+.pop-title{
+    grid-area: title;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.pop-up-container section{
+    grid-area: caption;
+    color: #fafafab5;
+    padding: 7px;
+}
+
+.icont{
+    font-size: 100px;
+    margin-left: 2%;
+    margin-top: 1%;
+    grid-area: logo;
+    
+}
+
+
+.chapters-contaner{
+    display: grid;
+    row-gap: 10px;
+    overflow-y: auto;
+    grid-area: chapters;
+    
+}
+
+.more-info{
+    padding: 5px;
+}
+
+.chapters-contaner .chapter{
+    background-color: var(--pumpkin);
+    display: flex;
+    padding:10px;
+    border-radius: 10px;
+    background-image: linear-gradient(20deg , var(--french-violet) 40%, var(--orange-peel))!important;
+    color: white;
+    transition: .3s ease;
+    cursor: no-drop;
+}
+.chapters-contaner .chapter:hover{
+    /* transform: scale(1.03); */
+    box-shadow: 0px 2px 5px 3px var(--amethyst) ,-2px 0px 5px 5px var(--pumpkin);
+}
+
+
+.chapter p {
+
+    width: 95%;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.enroll{
+    height: 24%;
+    width: 90%;
+    justify-self: center;
+    align-self: self-end;
+    border-radius:30px ;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(45deg , var(--amethyst) ,var(--russian-violet));
+    color: white;
+    font-size: 15px;
+    grid-area: button;
+
+}
+
+.enroll::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-30deg); 
+  opacity: .5;
+  transition :left 1s ease;
+    transition: all 1s ease;
+}
+.enroll:hover{
+    background-image: linear-gradient(45deg , var(--french-violet) , var(--orange-peel))!important;
+    color: white;
+}
+
+@keyframes shine {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 150%;
+  }
+}
+
+@media (max-width: 700px) {
+    .pop-up-container{
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        bottom: 5%;
+        padding: 20px;
+        grid-template-columns: 1fr; /* عمود واحد */
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "logo"
+            "title"
+            "caption"
+            "more-info"
+            "chapters"
+            "button";
+    }
+
+    .enroll{
+        height: 50px; /* خفف شوية */
+        width: 100%;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .pop-title{
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .icont{
+        font-size: 80px;
+        margin-left: 0;
+        margin-top: 0;
+        justify-self: center;
+    }
+
+    .chapters-contaner{
+        max-height: 200px; /* تحديد طول البلوك */
     }
 }
