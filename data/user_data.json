@@ -1,0 +1,12 @@
+{
+  "name": "Mohamed Yasser",
+  "age": 22,
+  "college": "Faculty of Computers and Information",
+  "email": "mohamed.yasser@example.com",
+  "password": "12345678",
+  "pass_confirm": "12345678",
+  "gender": "male",
+  "country": "Egypt",
+  "education": "undergraduate",
+  "photo": "https://avatars.githubusercontent.com/u/191134545?v=40"
+}
