@@ -1,6 +1,6 @@
 {
-  "name": "Mohamed Yasser",
-  "age": 22,
+  "name": "This is just a demo user data coming from the server API",
+  "age": 20,
   "college": "Faculty of Computers and Information",
   "email": "mohamed.yasser@example.com",
   "password": "12345678",
@@ -8,5 +8,7 @@
   "gender": "male",
   "country": "Egypt",
   "education": "undergraduate",
-  "photo": "https://avatars.githubusercontent.com/u/191134545?v=40"
+  "photo": "https://avatars.githubusercontent.com/u/191134545?v=40",
+  "plan" : "pro"
 }
+

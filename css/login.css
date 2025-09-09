@@ -5,9 +5,10 @@
 
 .contaner{
     background-color: rgba(255, 255, 255, 0.214);
-    height: 80%;
-    width: 70%;
-    border-radius: 30px;
+    background-image:  linear-gradient(135deg, #170027ad 40%,#6aa0f157, #2474eb55);;
+    height: 40%;
+    width: 50%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -15,26 +16,25 @@
     justify-content: center;
     overflow: visible;
     z-index: 100;
-    padding: 100px 10px;
-    box-shadow:inset 0px 1px 20px 5px var(--amethyst);
+    padding: 10px 10px;
+    box-shadow: 0px 1px 20px 5px  #2474eb55;
     z-index: 100;
     backdrop-filter: blur(5px); 
     -webkit-backdrop-filter: blur(5px); 
     transform: translateY(20px);
     opacity: 0;
     transition: 2s ease;
+    border: 1px solid #068cf9 ;
 }
 
-p{
+.logo{
     padding: 10px;
 
     bottom: 17%;
     font-family: "Ballet", cursive;
     font-size: 84px;
+    color: white;
     font-weight: bolder;
-    background-image: linear-gradient(to left , var(--russian-violet) , var(--orange-peel));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     height: 113px;
     margin: 0 0 10% 0 ;
 }
@@ -48,17 +48,17 @@ p{
 form{
     width:  100%;
     padding: 10px 50px 10px 50px ;
-
+    display: grid;
 }
 
 input{
     padding: 15px;
     width: 100%;
-    background-color:var(--french-violet);
-    border-radius: 33px;
+    background-color:var(--persian-indigo);
+    border-radius: 10px;
     color: white;
     transition: transform ease .2s 0s ,box-shadow ease .2s 0s;
-    border: 2px solid var(--pumpkin);
+    border: 2px solid #068cf9;
     
 }
 
@@ -72,41 +72,49 @@ input:focus{
 
 
 #login{
-    width: 70%;
+    width: 30%;
     height: 52px;
     font-size: 22px;
     border: none;
     transition:  .8s 0s ease;
-    box-shadow: inset 1px 1px 30px 4px var(--orange-peel);
+    box-shadow: inset 1px 1px 30px 4px var(--tekhelet);
     position: relative;
     overflow: hidden;
     color: white;
-    background-color: var(--pumpkin); 
+    background-image: linear-gradient(to left , #069fec , var(--tekhelet));
     border-radius: 33px;
+    cursor: pointer;
+    justify-self:center ;
 }
 
+#login:hover{
+    background-image: linear-gradient(to left , #069fec 30%, var(--tekhelet));
 
-
-#login::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to left, var(--pumpkin), white);
-    z-index: -1;
-    transition: opacity 0.3s ease;
-    opacity: 0;
 }
-
+ 
 #login:hover{
     background-color: transparent;
 }
 
-#login:hover::before{
-    opacity: 1;
-}
+
 
 input::placeholder{
     color: white;
+}
+
+.signIn{
+    color: white;
+    margin: 30px;
+}
+
+.signIn a{
+    color: var(--pumpkin);
+    text-decoration: none;
+    transition: .4s ease ;
+}
+
+.signIn a:hover{
+    color: var(--persian-indigo);
 }
 
 @media (max-width: 700px) {

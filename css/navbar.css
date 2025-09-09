@@ -53,14 +53,16 @@ li:hover{
 }
 
 .main-button{
-    background-color: var(--amethyst);
+    background-color: var(--russian-violet);
     z-index: 1000000;
     border: 1px solid var(--russian-violet);
-    box-shadow: inset 0 0 3px 2px var(--russian-violet);
+    box-shadow: inset 0 0 3px 2px var(--russian-violet),
+                inset -2px -2px 5px 1px var(--pumpkin)  ;
+
 }
 
 .main-button:hover{
-    box-shadow: inset -2px -2px 5px 1px var(--pumpkin)  ;
+    box-shadow: inset -2px -2px 8px 1px var(--pumpkin)  ;
     
 
 }
