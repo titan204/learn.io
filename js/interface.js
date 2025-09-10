@@ -8,5 +8,5 @@ window.addEventListener('load', () => {
 
 
 setTimeout(()=>{
-    // window.location="html/login.html";
+    window.location="html/login.html";
 },7000)
