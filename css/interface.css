@@ -7,6 +7,7 @@ body{
     background-image: linear-gradient(45deg , black , black ,black,var(--russian-violet));
     flex-direction: column;
     animation: change-background 5s ease forwards ;
+    overflow: hidden;
 }
 .welcom{
     font-size: 60px;
