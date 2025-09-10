@@ -98,3 +98,12 @@ body{
 .gradient-transition-box.transitioned::after {
   opacity: 1; 
 }
+
+@media (max-width:450px) {
+    .welcom{
+      font-size: 30px;
+    }
+    .caption{
+      font: 8px;
+    }
+}
