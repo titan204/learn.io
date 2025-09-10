@@ -2,41 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/interface.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>interface</title>
 </head>
 
 <body>
-    <canvas id="animatedBackground"> </canvas>
-    <div class="contaner">
-        <p class="logo">learn.io</p>
-        <form action="#" method="post">
-            <div class="username inp">
-                
-                <input type="email" id="mail" placeholder="user name ">
-            </div>
-            <div class="pass inp">
-                
-                <input type="password" id="pas" placeholder="password">
-            </div>
-            <button type="button" id="login" onclick="window.location='html/home.html'" >log in </button>
-        </form>
-        <p class="signIn">Don't have acount ? <a href="/html/sign_in.html"> sign in</a></p>
-
+    <canvas id="animatedBackground"></canvas>
+    <div class="gradient-transition-box"></div>
+    <div class="welcom-container">
+        <p class="welcom">Welcome to Learn.io ...</p>
     </div>
-
+    <p class="caption">Step Into Learn.io Your Journey to Knowledge Starts Here </p>
 </body>
-<script src="/js/login.js" ></script>
-<script src="/js/background.js" ></script>
+
+<script src="../js/background.js"></script>
+<script src="../js/interface.js"></script>
+<script src="../js/navbar.js"></script>
+
 </html>

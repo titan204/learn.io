@@ -146,6 +146,10 @@ body{
     }
 }
 
+@keyframes accel {
+    
+}
+
 .data-container{
     grid-area: data;
     display: flex;

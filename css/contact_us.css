@@ -1,18 +1,24 @@
-
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100vw;
+  body {
+    margin: 0;
     height: 100vh;
-}
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
 
+  
 .upper-box {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 100px;
+    align-self: center;
+    justify-self: center;
 }
 
 .logo{
@@ -38,119 +44,76 @@ body{
     background-image: linear-gradient(to left , var(--russian-violet) , var(--pumpkin));
 }
 
-.icons{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-.flow-icon{
-    font-size: 25px;
-    color: white;
-    border-radius: 50%;
-    border: 1px white solid;
-    width: 50px ;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    animation: glow 5s infinite ease;
-    transition: all 4s ease-in-out; 
-}
 
-    
-@keyframes glow {
-    0% {
-       box-shadow: #b682ff 1px 1px 7px 1px ;
-    }
-    50% {
-        box-shadow: -3px -1px 5px 1px #ff7700 ;
-    }
-    100% {
-        box-shadow: 1px 1px 7px 1px #ffbb00 ;
-    }
-}
-
-.container{
-    width: 70%;
-    height: 70%;
-    margin-top: 40px;
-    border: 1px solid white;
-    border-radius: 10px;
+  .contact-box {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(135deg, rgba(51,0,102,0.8), rgba(102,51,153,0.8));
+    padding: 50px 40px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    box-shadow: 0 0 50px rgba(255,165,0,0.2);
     display: flex;
     flex-direction: column;
-}
+    width: 350px;
+  }
 
-form{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 2fr auto 3fr ;
-    grid-template-areas: "name email" "subject subject" "text text";
-}
-
-.name-div , .email-div ,.Subject {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.name-div input , .email-div input {
-    width: 60%;
-    height: 20%;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-
-.Subject input{
-    width: 60%;
-    height: 70%;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-label{
+  .contact-box h1 {
     color: white;
-    margin:15px ;
-}
-
-.massge-div{
-    grid-area: text;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-textarea{
-    color: white;
-    font-size: 16px;
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 1px solid white;
-    margin: 20px;
-    padding: 30px;
-}
-
-textarea::placeholder{
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
 
-}
-
-.container button{
-    background-color: transparent;
+  .contact-box input,
+  .contact-box textarea {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    background-color: rgba(102,0,153,0.6);
     color: white;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-}
+    font-size: 1em;
+  }
 
+  .contact-box textarea {
+    resize: none;
+    height: 100px;
+  }
+
+  .contact-box button {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #5a00ff, #00bfff);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .contact-box button:hover {
+    transform: scale(1.05);
+  }
+
+  .contact-box p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .contact-box p a {
+    color: orange;
+    text-decoration: none;
+  }
+
+ @media (max-width:460px) {
+    .contact-box{
+      padding: 50px 10px;
+      margin-bottom: auto;
+    }
+    .upper-box{
+      margin-bottom: auto;
+    }
+ }
