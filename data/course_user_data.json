@@ -1,0 +1,86 @@
+{
+  "user_id": 45,
+  "name": "mohamed yasser",
+  "courses": [
+    {
+      "course_id": 1,
+      "title": "Quantum Computing",
+      "instructor": "Mostafa Mahmoud",
+      "image": "fas fa-atom",
+      "progress": 60,
+      "last_chapter": "Quantum Algorithms: Shor's and Grover's",
+      "next_chapter": "Quantum Error Correction",
+      "chapters_completed": [
+        "Introduction to Quantum Mechanics",
+        "Quantum Gates and Circuits",
+        "Quantum Algorithms: Shor's and Grover's"
+      ],
+      "start_date": "2025-06-15",
+      "estimated_completion_date": "2026-01-15"
+    },
+    {
+      "course_id": 2,
+      "title": "Robotics",
+      "instructor": "Hoda Ezz",
+      "image": "fas fa-robot",
+      "progress": 25,
+      "last_chapter": "History and Components of Robots",
+      "next_chapter": "Kinematics and Dynamics",
+      "chapters_completed": [
+        "History and Components of Robots"
+      ],
+      "start_date": "2025-08-20",
+      "estimated_completion_date": "2025-11-20"
+    },
+    {
+      "course_id": 3,
+      "title": "Web Development (Front-End)",
+      "instructor": "Mariam Gamal",
+      "image": "fas fa-code",
+      "progress": 90,
+      "last_chapter": "Building Responsive Websites",
+      "next_chapter": "Course Completed",
+      "chapters_completed": [
+        "HTML: Structuring Your Website",
+        "CSS: Styling and Layouts",
+        "JavaScript: Adding Interactivity",
+        "Building Responsive Websites"
+      ],
+      "start_date": "2025-07-20",
+      "estimated_completion_date": "2025-09-20"
+    },
+    {
+      "course_id": 4,
+      "title": "Artificial Intelligence Fundamentals",
+      "instructor": "Omar Khaled",
+      "image": "fas fa-brain",
+      "progress": 40,
+      "last_chapter": "Introduction to Neural Networks",
+      "next_chapter": "Deep Learning Basics",
+      "chapters_completed": [
+        "What is AI?",
+        "AI Applications",
+        "Introduction to Neural Networks"
+      ],
+      "start_date": "2025-05-10",
+      "estimated_completion_date": "2025-12-10"
+    },
+    {
+      "course_id": 5,
+      "title": "Data Structures & Algorithms",
+      "instructor": "Noura Adel",
+      "image": "fas fa-project-diagram",
+      "progress": 75,
+      "last_chapter": "Graph Algorithms",
+      "next_chapter": "Course Completed",
+      "chapters_completed": [
+        "Arrays and Linked Lists",
+        "Stacks and Queues",
+        "Trees and Binary Search Trees",
+        "Graph Algorithms"
+      ],
+      "start_date": "2025-04-01",
+      "estimated_completion_date": "2025-10-01"
+    }
+  ]
+}
