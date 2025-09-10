@@ -19,6 +19,7 @@
     height: 100px;
     align-self: center;
     justify-self: center;
+    margin-bottom: auto;
 }
 
 .logo{
@@ -60,6 +61,7 @@
     transform: translateY(100px);
     opacity: 0;
     transition: 1s ease;
+    margin-bottom: auto;
   }
 
   .contact-box h1 {
