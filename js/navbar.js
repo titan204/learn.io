@@ -1,13 +1,11 @@
 
 window.addEventListener("DOMContentLoaded", () => {
 
-  // جلب Navbar
   fetch('../html/navbar.html')
     .then(response => response.text())
     .then(data => {
       document.querySelector('.nav-contaner').innerHTML = data;
 
-      // بعد ما اتحمل الـ HTML نقدر نشتغل على العناصر
       const mainButton = document.querySelector('.main-button');
       const items = document.querySelectorAll('.navbar ul li');
 
